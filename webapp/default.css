@@ -1,14 +1,21 @@
+html body {
+  height: 100vh;
+}
 #image_container {
-    width: 800px;
-    height: 600px;
-    float: left;
-  }
+  height: 85vh;
+}
+.image_in_grid {
+  width: 100px;
+  margin: 5px;
+  display: inline-block;
+}
+.image_in_grid img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 641px) {
   .image_in_grid {
-    position: relative;
-    width: 400px;
-    height: 300px;
-    float: left;
-    }
-  .image_in_grid img {
-    width: 100%;
+    width: 230px;
+    margin: 5px;
   }
+}
